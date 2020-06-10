@@ -20,7 +20,7 @@ function worldState(query)
   var seedInteger = hashCode(query);
   var randomGenerator = Seed(seedInteger);
 
-  return sample(["Long ago, you fought an epic battle against Randall Flagg's military forces. And, you lost. The people now live in a blissful state of ignorance, followed preprogrammed directives, with an implanted history and false consciousness to ensure their pliablity. Randall Flagg now hope to extract all the resources he can before he consign this dimension into oblivion. You have assumed a false identity, and blended yourself into this false world, hoping to liberate society from Randall Flagg, and maybe once more conquer this area on behalf of the Gunslingers.", "Long ago, you fought an epic battle agianst Randall Flag's military forces - though you have saved this dimension from Randall Flag, the people have been traumatized horribly. They could not handle the truth, you realize, so you offered them a pleasent falsehood instead - a Loctus Eater Machine designed to shield them from the horrors of this endless war. The people now live in a blissful state of ignorance, followed preprogrammed directives, with an implanted history and false consciousness to ensure their pliablity. But there are always dissenters out there, who oppose your wise decision, who seek to expose the people of this land to the horrors of reality. You, the ruler of this world, have assumed a false identity, and blended yourself into this false world, hoping to keep order and destroy the dissenters before they damage society utterly.","Long ago, you fought an epic battle against Randall Flagg's military forces. Both you and Flagg led massive robotic armies - and watched in horrors as both armies went rogue, deciding to no longer follow the orders of their commanders. The native people here have already died, and the rogue armies have already implanted in themselves false memories and live in a blissful state of ignorance - thoroughly divorcing themselves from their intended purposes and living in their own delusional fantasies. So the battle was over - both sides lost. You, however, have been left stranded in this desolate wasteland though - as the usual methods of retreat have been cut off...so you assumed a false identity, and blended yourself into this false world, to avoid detection. However, you now detect signs that Randall Flagg is planning to return back to this world, with a new army - to once more try to conquer this dimension. You must stop this new military invasion, while also taking advantage of Randall Flagg's new escape portal to flee this land, and retreat back into civilization."], randomGenerator);
+  return sample(["Long ago, you fought an epic battle against Randall Flagg's military forces. And, you lost. The people now live in a blissful state of ignorance, followed preprogrammed directives, with an implanted history and false consciousness to ensure their pliablity. Randall Flagg now hope to extract all the resources he can before he consign this dimension into oblivion. You have assumed a false identity, and blended yourself into this false world, hoping to liberate society from Randall Flagg, and maybe once more conquer this area on behalf of the Gunslingers.", "Long ago, you fought an epic battle agianst Randall Flag's military forces - though you have saved this dimension from Randall Flag, the people have been traumatized horribly. They could not handle the truth, you realize, so you offered them a pleasent falsehood instead - a Loctus Eater Machine designed to shield them from the horrors of this endless war. The people now live in a blissful state of ignorance, followed preprogrammed directives, with an implanted history and false consciousness to ensure their pliablity. But there are always dissenters out there, who oppose your wise decision, who seek to expose the people of this land to the horrors of reality. You, the ruler of this world, have assumed a false identity, and blended yourself into this false world, hoping to keep order and destroy the dissenters before they damage society utterly.","Long ago, you fought an epic battle against Randall Flagg's military forces. Both you and Flagg led massive robotic armies - and watched in horrors as both armies went rogue, deciding to no longer follow the orders of their commanders. These rogue armies killed the native population and then implanted in themselves 'false memories' - allowing themselves to enjoy their own delusional power fantasies. So the battle was over - both sides lost. You, however, have been left stranded in this desolate wasteland - as the usual methods of retreat have been cut off during the chaos. Thus, you assumed a false identity, and blended yourself into this false world, to avoid detection. Now, though, you detect signs that Randall Flagg is planning to return back to this world, with a new army - to once more try to conquer this dimension. You must stop this new military invasion, while also taking advantage of Randall Flagg's new escape portal to flee this land, and retreat back into civilization."], randomGenerator);
 }
 
 class SearchInput extends React.Component {
@@ -81,7 +81,7 @@ class App extends React.Component {
 
 function TextGenerator(props)
 {
-  if ( props.query == null || props.query == "" )
+  if ( props.query == null || props.query === "" )
   {
     return (<p>Please write the name of the game you want us to generate the story for.</p>);
   }
@@ -103,19 +103,5 @@ const addLineBreaks = string =>
       <br />
     </React.Fragment>
   ));
-
-function formatName(user) {
-  return user.firstName + ' ' + user.lastName;
-}
-
-function Generate(number)
-{
-  return number;
-}
-
-function Cat()
-{
-  return (<div>{Generate(10)}</div>);
-}
 
 export default App;
