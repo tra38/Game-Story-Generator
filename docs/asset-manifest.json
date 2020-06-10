@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.f6d20bc5.chunk.js",
-    "main.js.map": "/static/js/main.f6d20bc5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3eec2ac5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3eec2ac5.js.map",
-    "static/js/2.565da394.chunk.js": "/static/js/2.565da394.chunk.js",
-    "static/js/2.565da394.chunk.js.map": "/static/js/2.565da394.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2de142a4f6c970f475829d74658660d9.js": "/precache-manifest.2de142a4f6c970f475829d74658660d9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.565da394.chunk.js.LICENSE.txt": "/static/js/2.565da394.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Game-Story-Generator/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Game-Story-Generator/static/js/main.e94bd13b.chunk.js",
+    "main.js.map": "/Game-Story-Generator/static/js/main.e94bd13b.chunk.js.map",
+    "runtime-main.js": "/Game-Story-Generator/static/js/runtime-main.d4740477.js",
+    "runtime-main.js.map": "/Game-Story-Generator/static/js/runtime-main.d4740477.js.map",
+    "static/js/2.565da394.chunk.js": "/Game-Story-Generator/static/js/2.565da394.chunk.js",
+    "static/js/2.565da394.chunk.js.map": "/Game-Story-Generator/static/js/2.565da394.chunk.js.map",
+    "index.html": "/Game-Story-Generator/index.html",
+    "precache-manifest.428df820400988b98928c7af136f39cf.js": "/Game-Story-Generator/precache-manifest.428df820400988b98928c7af136f39cf.js",
+    "service-worker.js": "/Game-Story-Generator/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Game-Story-Generator/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.565da394.chunk.js.LICENSE.txt": "/Game-Story-Generator/static/js/2.565da394.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Game-Story-Generator/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3eec2ac5.js",
+    "static/js/runtime-main.d4740477.js",
     "static/js/2.565da394.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.f6d20bc5.chunk.js"
+    "static/js/main.e94bd13b.chunk.js"
   ]
 }
