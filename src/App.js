@@ -126,7 +126,7 @@ class SharingWidget extends React.Component
       display: ( navigator.share ? "inline" : "none")
     }
     return(
-        <button className="share-button"
+        <button className="sharing-button"
                 type="button"
                 title="Share this article"
                 style={mystyle}

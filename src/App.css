@@ -72,7 +72,7 @@ button:hover, .button:hover {
   border-color: #cdd;
 }
 
-.share-button, .copy-link {
+.sharing-button, .copy-link {
   padding-left: 30px;
   padding-right: 30px;
 }

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Game-Story-Generator/static/css/main.f13466c6.chunk.css",
-    "main.js": "/Game-Story-Generator/static/js/main.1efd28d0.chunk.js",
-    "main.js.map": "/Game-Story-Generator/static/js/main.1efd28d0.chunk.js.map",
+    "main.css": "/Game-Story-Generator/static/css/main.d9396634.chunk.css",
+    "main.js": "/Game-Story-Generator/static/js/main.32780981.chunk.js",
+    "main.js.map": "/Game-Story-Generator/static/js/main.32780981.chunk.js.map",
     "runtime-main.js": "/Game-Story-Generator/static/js/runtime-main.d4740477.js",
     "runtime-main.js.map": "/Game-Story-Generator/static/js/runtime-main.d4740477.js.map",
     "static/js/2.b1458ceb.chunk.js": "/Game-Story-Generator/static/js/2.b1458ceb.chunk.js",
     "static/js/2.b1458ceb.chunk.js.map": "/Game-Story-Generator/static/js/2.b1458ceb.chunk.js.map",
     "index.html": "/Game-Story-Generator/index.html",
-    "precache-manifest.453f1c1aa5e4912b9bb8367356b91ad1.js": "/Game-Story-Generator/precache-manifest.453f1c1aa5e4912b9bb8367356b91ad1.js",
+    "precache-manifest.0a5680952b7647fc89ebac0bf4feccc2.js": "/Game-Story-Generator/precache-manifest.0a5680952b7647fc89ebac0bf4feccc2.js",
     "service-worker.js": "/Game-Story-Generator/service-worker.js",
-    "static/css/main.f13466c6.chunk.css.map": "/Game-Story-Generator/static/css/main.f13466c6.chunk.css.map",
+    "static/css/main.d9396634.chunk.css.map": "/Game-Story-Generator/static/css/main.d9396634.chunk.css.map",
     "static/js/2.b1458ceb.chunk.js.LICENSE.txt": "/Game-Story-Generator/static/js/2.b1458ceb.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/Game-Story-Generator/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4740477.js",
     "static/js/2.b1458ceb.chunk.js",
-    "static/css/main.f13466c6.chunk.css",
-    "static/js/main.1efd28d0.chunk.js"
+    "static/css/main.d9396634.chunk.css",
+    "static/js/main.32780981.chunk.js"
   ]
 }
