@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Game-Story-Generator/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Game-Story-Generator/static/js/main.e94bd13b.chunk.js",
-    "main.js.map": "/Game-Story-Generator/static/js/main.e94bd13b.chunk.js.map",
+    "main.css": "/Game-Story-Generator/static/css/main.f13466c6.chunk.css",
+    "main.js": "/Game-Story-Generator/static/js/main.1efd28d0.chunk.js",
+    "main.js.map": "/Game-Story-Generator/static/js/main.1efd28d0.chunk.js.map",
     "runtime-main.js": "/Game-Story-Generator/static/js/runtime-main.d4740477.js",
     "runtime-main.js.map": "/Game-Story-Generator/static/js/runtime-main.d4740477.js.map",
-    "static/js/2.565da394.chunk.js": "/Game-Story-Generator/static/js/2.565da394.chunk.js",
-    "static/js/2.565da394.chunk.js.map": "/Game-Story-Generator/static/js/2.565da394.chunk.js.map",
+    "static/js/2.b1458ceb.chunk.js": "/Game-Story-Generator/static/js/2.b1458ceb.chunk.js",
+    "static/js/2.b1458ceb.chunk.js.map": "/Game-Story-Generator/static/js/2.b1458ceb.chunk.js.map",
     "index.html": "/Game-Story-Generator/index.html",
-    "precache-manifest.428df820400988b98928c7af136f39cf.js": "/Game-Story-Generator/precache-manifest.428df820400988b98928c7af136f39cf.js",
+    "precache-manifest.453f1c1aa5e4912b9bb8367356b91ad1.js": "/Game-Story-Generator/precache-manifest.453f1c1aa5e4912b9bb8367356b91ad1.js",
     "service-worker.js": "/Game-Story-Generator/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Game-Story-Generator/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.565da394.chunk.js.LICENSE.txt": "/Game-Story-Generator/static/js/2.565da394.chunk.js.LICENSE.txt",
+    "static/css/main.f13466c6.chunk.css.map": "/Game-Story-Generator/static/css/main.f13466c6.chunk.css.map",
+    "static/js/2.b1458ceb.chunk.js.LICENSE.txt": "/Game-Story-Generator/static/js/2.b1458ceb.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/Game-Story-Generator/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4740477.js",
-    "static/js/2.565da394.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.e94bd13b.chunk.js"
+    "static/js/2.b1458ceb.chunk.js",
+    "static/css/main.f13466c6.chunk.css",
+    "static/js/main.1efd28d0.chunk.js"
   ]
 }

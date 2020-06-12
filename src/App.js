@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import history from './history';
 import Seed from './randomGenerator';
+import Clipboard from 'clipboard';
 
 function hashCode(str) {
   return str.split('').reduce((prevHash, currVal) =>
@@ -87,7 +88,19 @@ function TextGenerator(props)
   }
   else
   {
-    return (<div>{addLineBreaks(Background(props.query))}</div>);
+    new Clipboard(".copy-btn");
+
+    var plainText = Background(props.query);
+
+    return (<div>
+              <div id="copy-target">
+                {addLineBreaks(plainText)}
+              </div>
+              <button className="copy-btn" data-clipboard-target="#copy-target" >
+                  Copy to clipboard
+              </button>
+              <SharingWidget link={window.location.href} query={props.query} />
+            </div>);
   }
 }
 
@@ -104,5 +117,29 @@ const addLineBreaks = string =>
       <br />
     </React.Fragment>
   ));
+
+//https://css-tricks.com/how-to-use-the-web-share-api/
+class SharingWidget extends React.Component
+{
+  render() {
+    const mystyle = {
+      display: ( navigator.share ? "inline" : "none")
+    }
+    return(
+        <button className="share-button"
+                type="button"
+                title="Share this article"
+                style={mystyle}
+                onClick={() =>
+                  navigator.share({
+                    title: `Game Story Generator - ${this.props.query}`,
+                    url: this.props.link
+                  })
+                }>
+          <span>Share</span>
+        </button>
+    )
+  }
+}
 
 export default App;
